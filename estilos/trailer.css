@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+iframe{
+    position: absolute;
+    top: 3%;
+    left: 4%;
+    width: 90%;
+    height: 90%;
+}
