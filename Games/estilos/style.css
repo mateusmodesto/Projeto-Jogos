@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Peralta';
+    src: url(Peralta-Regular.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Silkscreen';
+    src: url(Silkscreen-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Silkscreen-Bold';
+    src: url(Silkscreen-Bold.ttf) format('truetype');
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(../imagens/Fundo\ para\ o\ site.jpg);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.75);
+    color:white ;
+    padding: 15px; 
+    margin-bottom: 20px;
+}
+header  h1 {
+    text-align: center;
+    padding: 25px;
+    font-size: 3em;
+    font-family: 'Silkscreen-Bold';
+}
+
+header p{
+    text-align: center;
+    padding: 25px;
+    font-size: 1.5em;
+}
+
+nav a{
+    background-color:  rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin: 30px;
+}
+
+nav > a:hover{
+    transform: translate(-5px, -5px);
+    transition-duration: 0.5s;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+    border-radius: 5px;
+    padding: 3px;
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    max-width: 950px;
+    min-width: 350px;
+}
+main > h1{
+    font-family: 'Peralta';
+    font-size: 2em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+main h2{
+    margin-bottom: 25px;
+    font-size: 1.8em;
+}
+
+main>p{
+    text-align: justify;
+    margin:0px 15px 10px 15px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+img{
+    width: 75%;
+    position: relative;
+    left: 5%;
+    top: 10%;
+    transform: translate(10%, 0.2%);
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+#alta{
+    border: 1px solid black;
+    background-color: gray;
+    padding: 15px;
+}
+
+ul.nome{
+    list-style-position: inside;
+    columns: 2;
+    margin-bottom: 40px;
+}
+
+li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+li > a:hover{
+    text-decoration: underline;
+}
+li.instrucao{
+    font-size: 1em;
+    margin: 0px 0px 10px 20px;
+}
+li.Titulo{
+    margin: 10px 0px 10px 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+a.arquivo{
+    margin:0px 0px 20px 15px
+}
+a.arquivo:hover{
+    color: black;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.678);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.trailer{
+    height: 340px;
+    min-width: 400px;
+    max-width: 590px;
+    border: 3px solid black;
+    padding: 0px;
+    margin: auto;
+    background-color: darkgray;
+    position: relative;
+}
+
+
+
+iframe{
+    position: absolute;
+    top: 1.4%;
+    left: 1.1%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto; 
+    
+    
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    margin-top: 50px;
+}
